@@ -166,28 +166,28 @@ Then the failures can be distributed within each interval & converted into cumul
 Therefore, the corresponding mean time to failure is MTTF = 1/2.97 ≈ 0.337 intervals
  
 :small_blue_diamond:Plot Represents Observed System Behavior Before Adjusting Target MTTF!
-![](images/RDC_Initial.png)
+![](media/RDC_Initial.png)
  
 :bar_chart: 2nd plot shows the minimum MTTF for which the system can still be considered acceptable under the chosen RDC risk profile. This value was found by gradually adjusting the FIO/MTTF setting until the observed failure curve just entered the acceptable side of the chart. Based on the final chart, the minimum acceptable MTTF was found to be: MTTF_min = 0.43 intervals
  
 At this point, this corresponds to an approximate failure intensity of FIO = 1/0.43 ≈ 2.33 failures per interval
  
 :small_blue_diamond:Observed Curve Is At Threshold Of Acceptability Which Makes This Practical Lower Bound For Acceptance According To RDC!
-![](images/MTTFmin.png)
+![](media/MTTFmin.png)
  
 :bar_chart: 3rd plot shows double the minimum acceptable MTTF: 2 × MTTF_min = 0.86 intervals
  
 In this case, the corresponding failure intensity becomes: FIO = 1/0.86 ≈ 1.16 failures per interval
  
 :small_blue_diamond:With This Stricter Target, Observed Failure Curve Falls Into Reject Side Of Chart. This Indicates That System Doesn't Satisfy Such Demanding Reliability Requirement!
-![](images/2xMTTFmin.png)
+![](media/2xMTTFmin.png)
  
 :bar_chart: 4th plot shows half the minimum acceptable MTTF: 0.5 × MTTF_min = 0.215 intervals
  
 In this case, corresponding failure intensity is: FIO = 1/0.215 ≈ 4.65 failures per interval
  
 :small_blue_diamond:With This Less Strict Target, Observed Failure Curve Enters Accept Region Earlier. This Indicates That System Would Be Considered Acceptable Under More Relaxed Reliability Requirement!
-![](images/0.5xMTTFmin.png)
+![](media/0.5xMTTFmin.png)
  
 <ins> ***Advantages & Disadvantages of RDC*** </ins><br>
 :clipboard:Advantages<br>
